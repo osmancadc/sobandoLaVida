@@ -3,19 +3,19 @@
 }
 
 #closeup1 {
-    background-image: url(../../assets/hands/manos\ closeup\ 1.png);
+    background-image: url(../../assets/hands/closeup1.png);
     background-size: 120%;
     background-position: 50% 70%;
 }
 
 #closeup2 {
-    background-image: url(../../assets/hands/manos\ closeup\ 2.png);
+    background-image: url(../../assets/hands/closeup2.png);
     background-size: 120%;
     background-position: 50% 70%;
 }
 
 #closeup3 {
-    background-image: url(../../assets/hands/manos\ closeup\ 3.png);
+    background-image: url(../../assets/hands/closeup3.png);
     background-size: 120%;
     background-position: 50% 70%;
 }
@@ -25,7 +25,7 @@
     height: 250px;
     margin-left: 40%;
     margin-top: 20px;
-    background-image: url(../../assets/hands/manos\ closeup\ 4.png);
+    background-image: url(../../assets/hands/closeup4.png);
     background-size: 120%;
     background-position: 50% 70%;
 }
