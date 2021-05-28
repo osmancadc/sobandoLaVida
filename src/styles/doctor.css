@@ -1,0 +1,30 @@
+.item{
+    position: absolute;
+    left: 40vw;
+    margin-top: 30px;
+    float: none;
+    margin-left: 10px;
+    width: 20vw;
+    height: 200px;
+    z-index: 1;
+}
+
+#portrait1 {
+    background-image: url(../../assets/doctor/Lucia\ retrato\ 1.png);
+    background-size: 90%;
+    background-position: 50% 0%;
+    top: 270px;
+}
+
+#portrait2 {
+    background-image: url(../../assets/doctor/Retrato\ 2.png);
+    background-size: 190%;
+    background-position: 80% 75%;
+}
+
+#portrait3 {
+    background-image: url(../../assets/doctor/Lucia\ retrato\ 3.png);
+    background-size: 150%;
+    background-position: 40% 7%;
+    top: 490px;
+}

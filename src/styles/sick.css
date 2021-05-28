@@ -1,0 +1,86 @@
+.explorer {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.item {
+    height: 180px;
+    margin: 0;
+    width: 16vw;
+}
+
+#trazo1 {
+    background-image: url(../../assets/sick/Trazos\ 1.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo2 {
+    background-image: url(../../assets/sick/Trazos\ 2.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo3 {
+    background-image: url(../../assets/sick/Trazos\ 3.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo4 {
+    background-image: url(../../assets/sick/Trazos\ 4.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo5 {
+    background-image: url(../../assets/sick/Trazos\ 5.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo6 {
+    background-image: url(../../assets/sick/Trazos\ 6.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo7 {
+    background-image: url(../../assets/sick/Trazos\ 7.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo8 {
+    background-image: url(../../assets/sick/Trazos\ 8.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo9 {
+    background-image: url(../../assets/sick/Trazos\ 9.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#trazo10 {
+    background-image: url(../../assets/sick/Trazos\ 10.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#video-sick {
+    background-image: url(../../assets/sick/video.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+    float: none;
+    margin-left: 40%;
+    width: 20vw;
+    height: 200px;
+}
+
+.video {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="src/styles/audio.css">
+    <link rel="stylesheet" href="src/styles/utils.css">
+    <link rel="stylesheet" href="src/styles/meds.css">
+    <script src="https://kit.fontawesome.com/86802a4877.js" crossorigin="anonymous"></script>
+    <title>Objetos sobandería</title>
+</head>
+
+<body>
+    <div class="main-image">
+        <button class="close-main"><i class="fas fa-times fa-3x"></i></button>
+        <img id="display-image" src="assets/meds/almond_oil.png" alt="">
+    </div>
+
+
+    <div id="audio-player-container">
+        <audio src="assets/meds/meds_audio.mp3" id="audio" preload="metadata" autoplay></audio>
+        <button id="play-icon"><i class="far fa-play-circle fa-3x"></i></button>
+        <button id="pause-icon"><i class="far fa-pause-circle fa-3x"></i></button>
+        <span id="current-time" class="time">0:00</span>
+        <input type="range" id="seek-slider" max="100" value="0">
+        <span id="duration" class="time">0:00</span>
+    </div>
+    <button onclick="returnHome()" class="return"><i class="fas fa-arrow-circle-left fa-3x"></i></button>
+
+
+    <div class="explorer">
+        <div class="item" id="pink"> <div class="obscure"></div> </div>
+        <div class="item" id="oil"> <div class="obscure"></div> </div>
+        <div class="item" id="aromatic"> <div class="obscure"></div> </div>
+        <div class="item" id="sheet"> <div class="obscure"></div> </div>
+        <div class="item" id="cups"> <div class="obscure"></div> </div>
+    </div>
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="src/scripts/expand.js"></script>
+<script src="src/scripts/audio.js"></script>
+<script src="src/scripts/utils.js"></script>
+
+</html>

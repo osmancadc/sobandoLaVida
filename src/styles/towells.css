@@ -1,0 +1,55 @@
+#kid1 {
+    background-image: url(../../assets/towells/Sobando\ niño.png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#kid2 {
+    background-image: url(../../assets/towells/Sobando\ niño\ 2.png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#leg {
+    background-image: url(../../assets/towells/Sobando\ pierna\ .png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#arm {
+    background-image: url(../../assets/towells/Sobando\ brazo.png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#video1 {
+    background-image: url(../../assets/towells/Primer\ video.png);
+    background-position: 60% 40%;
+    margin-left: 7%;
+}
+
+#video2 {
+    background-image: url(../../assets/towells/Segundo\ video.png);
+    background-position: 30% 80%;
+    margin-left: 20px;
+}
+
+#video1 ,#video2{
+    float: left;
+    width: 25%;
+    height: 250px;
+    margin-top: 20px;
+    background-size: 150%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.explorer {
+    clear: both;
+    margin-left: 17%;
+}
+
+.video {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+}

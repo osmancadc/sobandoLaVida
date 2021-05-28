@@ -1,0 +1,29 @@
+#pink {
+    background-image: url(../../assets/meds/pink_cream.png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#oil {
+    background-image: url(../../assets/meds/almond_oil.png);
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+#aromatic {
+    background-image: url(../../assets/meds/aromatic_plants.png);
+    background-size: 120%;
+    background-position: 20% 70%;
+}
+
+#sheet {
+    background-image: url(../../assets/meds/bed_sheet.png);
+    background-size: 120%;
+    background-position: 20% 50%;
+}
+
+#cups {
+    background-image: url(../../assets/meds/suction_cups.png);
+    background-size: 120%;
+    background-position: 20% 40%;
+}

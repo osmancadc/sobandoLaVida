@@ -1,0 +1,95 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.explorer {
+    width: 90%;
+    height: 210px;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+.item {
+    float: left;
+    width: 19%;
+    height: 210px;
+    z-index: 500;
+    margin-left: 1%;
+}
+
+.obscure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.obscure:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.close-main {
+    position: absolute;
+    top: 2vh;
+    right: 15%;
+    z-index: 6;
+    background-color: #555;
+}
+
+.close-main:hover {
+    background-color: #BBB;
+    cursor: pointer;
+}
+
+.main-image {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 15;
+    text-align: center;
+}
+
+.main-image img {
+    margin-top: 2.5vh;
+    height: 95vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.return {
+    position: absolute;
+    top: 60px;
+    left: 2%;
+
+}
+
+.control-buttons {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+    cursor: pointer;
+    display: none;
+}
+
+.control-buttons i {
+    position: inherit;
+    top: 38%;
+    left: 45%;
+}
+
+#play-btn {
+    display: none;
+}
