@@ -65,13 +65,13 @@
 
 #trazo10 {
     background-image: url(../../assets/sick/Trazos\ 10.png);
-    background-size: 120%;
+    background-size: 180%;
     background-position: 50% 70%;
 }
 
 #video-sick {
     background-image: url(../../assets/sick/video.png);
-    background-size: 120%;
+    background-size: 250%;
     background-position: 50% 70%;
     float: none;
     margin-left: 40%;

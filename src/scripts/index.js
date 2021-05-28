@@ -38,3 +38,11 @@ $('.background').maphilight({
 	shadow: false,
 });
 
+$(".obscure").on('click',()=>{
+    var win = window.open('https://indd.adobe.com/view/309c5836-7a97-408f-babc-dc79909af47c', '_blank');
+if (win) {
+    win.focus();
+} else {
+    alert('Por favor permite los popups en esta página');
+}
+})

@@ -11,6 +11,12 @@ $(".item").on('click', (e) => {
     indexStart = url.indexOf('("')
     indexEnd = url.indexOf('")')
     url = url.substring(indexStart + 2, indexEnd)
+    
+    $(".main-image img").css({
+        "margin-top": "2.5vh",
+        "height": "95vh",
+        "width": "auto"
+    })
     $("#display-image").attr("src", url);
     $(".main-image").animate({
         top: "0",
@@ -69,7 +75,6 @@ $("#video-sick").on('click', () => {
     $("#display-image").css("display", "none")
 })
 
-
 $("#video1").on('click', () => {
     $("#display-image").css("display", "none")
     $("#segundo-video").css("display", "none")
@@ -94,6 +99,14 @@ $("#video2").on('click', () => {
     $("#segundo-video").css("display", "block")
     $("#segundo-video").trigger("play")
     $(".control-buttons").css("display", "none")
+})
+
+$("#trazo10").on('click',()=>{
+    $(".main-image img").css({
+        "width": "70vw",
+        "height": "auto",
+        "margin-top": "20vh"
+    })
 })
 
 $(".video").hover(() => {
